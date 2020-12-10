@@ -1,0 +1,542 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*********************************** home page css start ***********************************/
+.header-section{
+	width: 100%;
+	background: url(../images/feature.png) center top no-repeat;
+	background-size: cover;
+}
+.header-section .main-menu{
+	width: 100%;
+}
+.header-section .main-menu .bg-dark{
+	background: transparent !important;
+}
+
+.header-section .main-menu .navbar-nav .active>.nav-link{
+    color: #fff;
+    background: url(../images/hm-hover.png) center bottom no-repeat;
+}
+
+.header-section .main-menu .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px 0px 0px 15px;
+}
+
+.header-section .main-menu .navbar-nav .nav-link:hover, .header-section .main-menu .navbar-nav .nav-link:focus{
+	color: #fff;
+    background: url(../images/hm-hover.png) center bottom no-repeat;
+} 
+
+
+.header-section .banner-section{
+	width: 100%;
+	padding: 100px 0px;
+}
+.header-section .banner-section h1{
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 52px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.header-section .banner-section h5{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 30px;
+	color: #008ed6;
+	/* letter-spacing: 3px; */
+	margin-bottom: 10px;
+}
+.header-section .banner-section p{
+	color: #79797b;
+	font-size: 16px;
+	font-weight: 500px;
+	margin-bottom: 50px;
+}
+.header-section .inner-btn{
+	width: 100%;
+	margin-top: 40px; 
+}
+.inner-btn .btn-primary{
+	padding: 8px 20px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	background: #008ed6;
+	border:1px solid #008ed6 ;
+	transition: 1s;
+	margin-right: 10px;
+}
+.inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus{
+	color:#008ed6  ;
+	background: transparent;
+	border: 1px solid #008ed6;
+
+}
+.inner-btn .btn-light{
+	padding: 8px 20px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	background: transparent;
+	border:1px solid #fff ;
+	transition: 1s;
+}
+.inner-btn .btn-light:hover, .inner-btn .btn-light:focus{
+	color: #008ed6  ;
+	background: transparent;
+	border: 1px solid ;
+}
+
+/**************************** Global css for all title design ****************************/
+.title h1{
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 52px;
+	color: #000;
+	margin-bottom: 10px;
+}
+.title h5{
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 30px;
+	color:  #008ed6;
+	margin-bottom: 10px;
+}
+/************************** Global css for all title design end ***************************/
+
+/************************************ feature section start ************************************/
+.feature .title {
+    width: 100%;
+    padding: 60px 0px 25px;
+}
+.inner-feature{
+	width: 100%;
+	padding: 20px 20px;
+	text-align: center;
+}
+.inner-feature .icon-box{
+	width: 100%;
+	padding: 15px 0px;
+}
+.inner-feature .icon-box .fa{
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	border: 1px solid #eee;
+	border-radius: 50%;
+	color: #008ed6;
+	font-size: 22px;
+}
+.inner-feature h4{
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30px;
+	color: #1a1a1a;
+}
+.inner-feature p{
+	color: #79797b;
+	font-size: 15px;
+	font-weight: 500px;
+	margin-bottom: 50px;
+}
+
+/*********************************** feature section end ***********************************/
+/********************************** about-beauty css start **********************************/
+.about-beauty {
+    width: 100%;
+    padding: 80px 0px 30px 0px;
+    border: 1px solid #eee;
+    background: #fefefe;
+}
+.about-beauty .title{
+	margin: 40px 0px 25px;  
+}
+.about-beauty .content{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999;
+	margin: 20px 0px;
+}
+.about-beauty .list-pera{
+	color: #1b1b1b;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 30px;
+}
+.about-beauty .list-pera img{
+	margin-right: 5px;
+}
+/********************************** about-beauty css end **********************************/
+
+/********************************** about-sort css start **********************************/
+.about-sort{
+	width: 100%;
+	padding: 50px 0px 29px 0px;
+	background: #f2f2f2;
+}
+.about-sort .lefty{
+	width: 100%;
+	margin: 42px 0px 0px 0px;
+}
+.about-sort h5{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 30px;
+	color:  #008ed6;
+	margin-bottom: 10px;
+}
+.about-sort h1{
+	font-size: 37px;
+	font-weight: 600;
+	line-height: 52px;
+	color: #000;
+	margin-bottom: 10px;
+}
+.about-sort p{
+	color: #79797b;
+	font-size: 16px;
+	margin-top: 20px;
+	line-height: 25px;
+	margin-bottom: 0px;
+}
+/*********************************** about-sort css end ***********************************/
+
+/********************************* testimonial css start **********************************/
+.testimonial{
+	width: 100%;
+	padding:80px 0px;
+	background: url(../images/testimonial.png) center top no-repeat;
+	background-size: cover;
+}
+.testimonial .title h5{
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 30px;
+	color:  #008ed6;
+	margin-bottom: 5px;
+}
+.testimonial .title h1{
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 52px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+.testimonial .owl-carousel .item h4 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    font-style: italic;
+    line-height: 32px;
+    margin-top: 35px;
+}
+.testimonial .owl-carousel .media{
+ margin-top: 40px;
+}
+.testimonial .owl-carousel .media img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.testimonial .owl-carousel .media-body{
+
+}
+.testimonial .owl-carousel .media-body h5{
+	font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+	margin: 12px 0px 0px !important; 
+}
+.testimonial .owl-carousel .media-body p{
+	font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+.testimonial .owl-carousel .owl-nav.disabled+.owl-dots {
+    margin-top: 57px;
+}
+/*********************************** testimonial css end ************************************/
+
+/*********************************** eye-catcher css start ***********************************/
+.eye-catcher{
+	width: 100%;
+	padding: 40px 0px;
+	background: #15141a;
+}
+.eye-catcher h2{
+	font-size: 32px;
+	font-weight: 700;
+	color: #fff;
+	margin: 0px;
+}
+.eye-catcher h2 span{
+	font-weight: 300;
+}
+.eye-catcher .inner-btn{
+	margin: 0px;
+}
+.eye-catcher .inner-btn .btn-light{
+	margin-right:15px;
+	padding: 8px 20px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	background: transparent;
+	border:1px solid #fff ;
+	transition: 1s;
+}
+.eye-catcher .inner-btn .btn-light:hover, .eye-catcher .inner-btn .btn-light:focus{
+	color: #008ed6  ;
+	background: transparent;
+	border: 1px solid ;
+}
+.eye-catcher .inner-btn .btn-primary{
+	padding: 8px 20px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	background: #008ed6;
+	border:1px solid #008ed6 ;
+	transition: 1s;
+	margin-right: 10px;
+}
+.eye-catcher .inner-btn .btn-primary:hover, .eye-catcher .inner-btn .btn-primary:focus{
+	color:#008ed6  ;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+/********************************** eye-catcher css end **********************************/
+
+/******************************** price-section css start ********************************/
+.price-section{
+	width: 100%;
+	padding: 40px 0px 60px;
+}
+.price-section .title{
+	text-align: center;
+	margin-bottom: 70px;
+}
+.price-section .card{
+	text-align: center;
+}
+.price-section .card .card-header{
+	background: transparent;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 20px 0px;
+
+}
+
+.price-section .card .card-body{
+	padding: 0px;
+}
+
+.price-section .card .card-body .price-inner{
+	width: 100%;
+	padding: 40px 0px;
+	border-bottom: 1px solid #eee;
+}
+
+.price-section .card .card-body .price-inner .card-title{
+	margin:0px;
+	font-size: 42px;
+	font-weight: 700;
+}
+.price-section .card .card-body .price-inner .card-title sup{
+	top: -15px;
+	font-size: 20px;
+	font-weight: 400;
+
+}
+.price-section .card .card-body .price-inner p{
+	color: #999;
+	font-size: 14px;
+	font-weight: 400;
+	margin: -10px 0px 0px;
+	line-height: 25px;
+}
+.price-section .card .price-text{
+	width: 100%;
+	padding: 30px 28px;
+}
+.price-section .card .price-text p{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #999;
+	margin: 0px
+}
+.price-section .card .price-text p a{
+	color: #008ed6;
+	font-weight: 700;
+}
+.price-section .card .card-body .btn-primary{
+	margin-bottom: 30px;
+	padding: 8px 20px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #008ed6;
+	background: #fff;
+	border:1px solid #eee;
+	transition: 0.7s;
+	margin-right: 10px;
+}
+.price-section .card:hover .card-body .btn-primary, .price-section .card .card-body .btn-primary:focus{
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+}
+.price-section .card:hover .card-header{
+	color: #008ed6;
+}
+.price-section .card:hover .card-body .price-inner{
+	background: #008ed6;
+	color: #fff;
+}
+.price-section .card:hover .price-inner p{
+	color: #fff;
+}
+
+/******************************** price-section css end ********************************/
+
+/********************************** contact-us css start **********************************/
+.contact-us{
+	width: 100%;
+	padding: 80px 0px 0px;
+	background: #ededed;
+}
+.contact-us .title{
+	padding-bottom: 40px;
+}
+.contact-us .info-box{
+	width: 100%;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.contact-us .info-box .fa{
+	font-size: 24px;
+	color: #008ed6;
+	margin-bottom: 20px;
+}
+.contact-us .info-box p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999;
+	margin: 0px;
+}
+/*********************************** contact-us css end ***********************************/
+
+/********************************** main-form css start **********************************/
+.main-form{
+   width: 100%;
+   padding: 60px 60px 40px;
+   background: #15141a;
+   margin-bottom: -90px;
+}
+.main-form .form-control{
+	background: transparent;
+	border: 1px solid #444348;
+	color: #444348;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 12px;
+	height: auto;
+}
+.main-form .btn-primary{
+	padding: 8px 20px;
+	border-radius: 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	background: #008ed6;
+	border:1px solid #008ed6;
+	transition: 0.7s;
+	margin-top: 10px;
+}
+.main-form .btn-primary:hover,.main-form .btn-primary:focus{
+	color:#008ed6  ;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+/************************************* main-form css end *************************************/
+
+/*************************************** map css start ***************************************/
+.map{
+	width: 100%;
+}
+/*************************************** mapcss end ***************************************/
+
+/******************************* footer-section coding start *******************************/
+.footer-section{
+	width: 100%;
+	padding: 30px 0px;
+	background: #15141a;
+}
+.footer-section .social-icons {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.footer-section .social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.footer-section .social-icons li a{
+	font-size: 20px;
+	color: #444348;
+	margin: 0px 10px 10px;
+	transition: 1s;
+}
+.footer-section .social-icons li a:hover, .footer-section .social-icons li a:focus{
+	color:#008ed6  ;
+}
+.footer-section p{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #444348;
+	margin: 0px;
+
+}
+/******************************* footer-section coding end *******************************/
